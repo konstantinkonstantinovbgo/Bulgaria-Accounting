@@ -31,14 +31,9 @@ This is the base module to manage the accounting chart for Bulgaria in OpenERP.
     'images': ['static/description/icon.png', 'images/main_screenshot.png'],
     'depends': ['account'],
     'demo': [],
-    'data': [
-        #'data/account_chart.xml',
-        #'data/account.account.template.csv',
-        #'data/account_chart_template.xml',
-        #'data/account_chart_template.yml',
-    ],
+    'data': [],
     'sequence': 1,
     'installable': True,
-    'doc' : ['doc/index.rst'],
+    'doc': ['doc/index.rst'],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
