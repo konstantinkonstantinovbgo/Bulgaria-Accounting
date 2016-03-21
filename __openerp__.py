@@ -28,7 +28,7 @@ This is the base module to manage the accounting chart for Bulgaria in OpenERP.
     """,
     'author': 'BGO Team',
     'website': 'http://bgosoftware.com',
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/icon.png', 'images/main_screenshot.png'],
     'depends': ['account'],
     'demo': [],
     'data': [
@@ -39,5 +39,6 @@ This is the base module to manage the accounting chart for Bulgaria in OpenERP.
     ],
     'sequence': 1,
     'installable': True,
+    'doc' : ['doc/index.rst'],
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
