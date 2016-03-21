@@ -25,7 +25,7 @@
     'category': 'Localization/Account',
     'description': """
 This is the base module to manage the accounting chart for Bulgaria in OpenERP (Odoo).
-This module is in development. Pease be patient.
+This module is in development. Please be patient.
     """,
     'author': 'BGO Team',
     'website': 'http://bgosoftware.com',
