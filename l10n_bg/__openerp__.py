@@ -21,20 +21,36 @@
 
 {
     'name': 'Bulgaria - Accounting',
-    'version': '1.0',
+    'version': '2.0',
     'category': 'Localization/Account',
     'description': """
 This is the base module to manage the accounting chart for Bulgaria in OpenERP (Odoo).
 This module is in development. Please be patient.
     """,
-    'author': 'BGO Team',
+    'author': 'BGO Team 2016',
     'website': 'http://bgosoftware.com',
     'images': ['static/description/icon.png', 'images/main_screenshot.png'],
-    'depends': ['account'],
+    'depends': ['account',
+                'base_vat',
+               ],
     'demo': [],
-    'data': [],
+    'data': [
+        'views/account_chart.xml',
+        'views/account_chart_template.yml',
+        'views/account_tax_template.xml',
+        'views/res_partner_view.xml',
+        'views/res_company_view.xml',
+        'views/fiscal_position_template.xml',
+        'views/account_invoice_view.xml',
+        'views/report_invoice.xml',
+        'views/report_header.xml',
+        'views/report_footer.xml',
+        'views/report_invoice_amount_to_text.xml',
+        'views/account_tax.xml',
+        'views/account_fiscal_position.xml',
+    ],
     'sequence': 1,
     'installable': True,
     'doc': ['doc/index.rst'],
+    "application": True,
 }
-# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
